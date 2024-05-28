@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+   padding: 0;
+}
+body {
+  background-color: honeydew;
+  font-family: "Lucida Sans";
+  
+
+}
+/* h1{
+  margin-top: 0;
+  padding-top: 0;
+} */
+.heading {
+  width: 700 vw; 
+  background-color: rgb(237, 223, 30);
+  color: black;
+
+}
+.btndiv {
+  color: rgb(15, 15, 15);
+  background-color: rgb(237, 223, 30);
+  cursor: pointer;
+  border: none;
+  padding: 9px;
+  border-radius: 12px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.note{
+  border: 2px solid #000;
+      	padding: 15px;
+        overflow-y: scroll;
+        width: 500px;
+        height: 110px;
+        /* background-color: rgb(208, 219, 161);
+        position: fixed
+        ;
+  width: 500px;
+  height: 110px;
+  overflow: scroll; */
+
+
+  
+}
+.fa-edit,
+.fa-trash{
+  color: azure;
+  padding: 10px;
+  background-color: rgb(7, 159, 22);
+  border: none;
+  border-radius:12px; text-align: center;
+
+
+}
+.fa-trash{
+  background-color: rgb(219, 45, 29);
+  
+}
+.fa-edit:hover,
+.fa-trash:hover{
+  background-color: azure;
+  color: rgb(29, 35, 219);
+}
+
+.txt{
+  width: 400px;
+  height: 200px;
+
+}
+
+.hidden{
+  display: none;
+} 
